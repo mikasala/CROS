@@ -1,0 +1,47 @@
+html
+{
+	font-size: 0.95em;
+	width: 99.2vw;
+	height: 96.3vh;
+	font-family:Century Gothic;
+	position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: auto;
+	margin: auto; 
+	
+}
+body
+{
+	width: 100%;
+	background: white;
+	height: 100%;
+	margin-right:0;
+	margin-left:0.4%;
+	margin-top: 0.4%;
+	margin-bottom: 0.7%;
+	//border: 2px solid black;
+	
+}
+#main
+{
+	//border: 2px solid orange;
+	background-image: url('../pics/wallpaper.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 99.5%;
+	width: 100%;
+	margin:0;
+}
+
+#mainContainer{
+	background-image: url('../pics/mainback.jpg');
+	width: 100%;
+	//width: 1350px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 72%;
+	//height: 464px;
+	display: none;
+}

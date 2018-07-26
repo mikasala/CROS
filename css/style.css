@@ -1,0 +1,297 @@
+/*product viewing and miscelaneous*/
+#viewProduct,
+#viewOrder
+{
+	display: none;
+    width:60%;
+    height: 450px;
+    z-index: 195;
+    position:absolute;
+	top: 80px;
+    left:0;
+	right:0;
+	bottom:auto;
+	margin:auto;
+	background-image: url('../pics/back.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+    color: black;
+    padding:10px;
+	overflow: auto;
+	
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 20px -1px rgba(57, 57, 57, 1);
+    -moz-box-shadow: 0px 0px 20px -1px rgba(57, 57, 57, 1);
+    box-shadow: 0px 0px 20px -1px rgba(57, 57, 57, 1);
+}
+
+
+#viewOrder
+{
+	top: 65px;
+	z-index: 175;
+	height: 480px;
+}
+#viewOrderHolder
+{
+	display: none;
+}
+
+#viewProductFieldset,
+#viewOrderFieldset
+{
+	min-height: 95%;
+	height: auto;
+}
+
+/*****************************************************/
+/*viewproduct css*/
+/*****************************************************/
+#viewProductTable
+{
+	float:left;
+	width: 48%;
+	border-collapse: collapse;
+	border-spacing: 0;
+	font-size: 0.97em;
+	margin-left:5%;
+}
+
+#viewProductTable td
+{
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	width: 50%;
+	height: 30px;
+}
+#viewProductTable td.left
+{
+	text-align: right;
+}
+#viewProductTable td.right,#viewProductTable td.rightClick
+{
+	text-align: left;
+	text-indent: 3%;
+	font-weight: bold;
+}
+#viewProductTable td.leftClick
+{
+	text-align: right;
+	padding-right: 8px;
+}
+#viewProductTable td.leftClick,
+#viewProductTable td.rightClick
+{
+	border: none;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 1em;
+}
+#addProd,
+#removeProd,
+#closeWindow
+{
+	cursor:pointer;
+}
+#addProd:hover,
+#removeProd:hover,
+#closeWindow:hover
+{
+	opacity: 0.60;
+	color: #f5769c;
+}
+
+#picHolder
+{
+	width: 40%;
+	float: left;
+	margin-top: 10px;
+	height: 350px;
+	text-align: center;
+	//border: 1px solid black;
+	vertical-align: middle;
+	position: relative;
+}
+
+img.viewProd
+{
+	position:absolute;
+	max-width:100%;
+	max-height:100%;
+	left:5%;
+	right:0;
+	top:0;
+	bottom:0;
+	margin: auto;
+	 
+}
+
+/*****************************************************/
+/*add and view css css*/
+/*****************************************************/
+#addOrderFieldset
+{
+	width: 60%;
+	margin:auto;
+	min-height: 95%;
+	height: auto;
+}
+#addOrderTable
+{
+	width: 95%;
+	border-collapse: collapse;
+	border-spacing: 0;
+	font-size: 0.97em;
+	margin:auto;
+
+}
+#addOrderTable td
+{
+	border-top: 1px solid gray;
+	width: 50%;
+	height: 43px;
+}
+#deliveryaddress
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#addOrderTable td.left
+{
+	text-align: right;
+	padding-right: 2.5%;
+}
+#addOrderTable td.right,#addOrderTable td.rightClick
+{
+	text-align: left;
+	padding-left: 4%;
+	font-weight: bold;
+}
+#addOrderTable td.leftClick
+{
+	text-align: right;
+	padding-right: 8px;
+}
+#addOrderTable td.leftClick,
+#addOrderTable td.rightClick
+{
+	border: none;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+#viewOrderTable
+{
+	width: 95%;
+	border-collapse: collapse;
+	border-spacing: 0;
+	font-size: 0.97em;
+	margin:auto;
+
+}
+#viewOrderTable td
+{
+	//border: 1px solid black;
+	width: 50%;
+	height: 25px;
+}
+#viewOrderTable td.left
+{
+	text-align: right;
+	padding-right: 2.5%;
+}
+#viewOrderTable td.right,
+#viewOrderTable td.rightClick
+{
+	text-align: left;
+	padding-left: 4%;
+	font-weight: bold;
+}
+#viewOrderTable td.leftClick
+{
+	text-align: right;
+	padding-right: 8px;
+}
+#viewOrderTable td.leftClick,
+#viewOrderTable td.rightClick
+{
+	border: none;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+#orderListTable
+{
+	width: 95%;
+	border-collapse: collapse;
+	border-spacing: 0;
+	font-size: 0.97em;
+	margin:auto;
+
+}
+#orderListTable td
+{
+	//border: 1px solid black;
+	width: 33%;
+	height: 25px;
+}
+
+/***************************************************/
+/*importants*/
+/***************************************************/
+#loginSuccess
+{
+	display: none;
+    width:20%;
+    height:20px;
+    z-index: 100;
+    position:absolute;
+	top: 100px;
+    left:0;
+	right:0;
+    bottom:auto;
+    margin:auto;
+    background-color: #f0c98f;
+    color: black;
+    //font-size: 20px;
+    padding:10px;
+    text-align:center;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 20px -1px rgba(57, 57, 57, 1);
+    -moz-box-shadow: 0px 0px 20px -1px rgba(57, 57, 57, 1);
+    box-shadow: 0px 0px 20px -1px rgba(57, 57, 57, 1);
+}
+
+#useridHolder{
+	display: none;
+}
+
+fieldset
+{
+	border-radius:8px;
+	background:#fadfe7;
+	border: 1px solid #ce9641;
+}
+
+
+
+legend
+{
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	background:#f5769c;
+	border: 1px solid #ce9641;
+	border-radius:8px;
+	font-size:0.95em;
+}
+
+input[type=number]
+{
+	padding-left: 1%;
+	width: 27%;
+}
+

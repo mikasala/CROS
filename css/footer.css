@@ -1,0 +1,31 @@
+/*=========================footer===========================*/
+
+#footer
+{
+	width: 100%;
+	height: 4%;
+	//height: 25px;
+	display: block;
+	//margin-bottom: 0.3%;
+}
+#mainFooter
+{
+	background-image: url('../pics/footer.jpg');
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 100%;
+	display: none;
+	border-radius: 5px;
+	text-indent: 15%;
+	line-height: 1.5em;
+	overflow: hidden;
+	//border: 1px solid #ce9641;
+
+}
+.footerTxt
+{
+	
+}
+
+/*==========================================================*/

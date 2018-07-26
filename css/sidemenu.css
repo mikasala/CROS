@@ -1,0 +1,231 @@
+/*=====================left side menu=====================*/
+#leftMenu
+{
+	
+	width: 18%;
+	height: 90%;
+	float: left;
+	//border: 1px solid red;
+	position: relative;
+}
+
+.sideMenu1,
+.sideMenu2,
+.sideMenu3,
+.sideMenu4,
+.sideMenu5
+{
+	transform: skewX(40deg);
+	//height:100%;
+	padding-top: 15px;
+	margin-bottom: 18px;
+	
+}
+#barongs,
+#americanas,
+#gowns,
+#sagalas,
+#prom,
+#addSide,
+#selectSide,
+#ordersSide
+{
+	//background: #f5769c;
+	background-image: url('../pics/button.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+	display: none;
+	width: 90%;
+	position: absolute;
+	border-radius: 10px;
+	transform: skewX(-40deg);
+	height: 10%;
+	cursor: pointer;
+	overflow: visible;
+	line-height: 1em;
+}
+
+#barongs,
+#addSide
+{	
+	z-index: 100;
+	top: 40px;
+}
+
+#americanas,
+#selectSide
+{
+	z-index: 95;
+	top: 110px;
+}
+
+#gowns,
+#ordersSide
+{
+	z-index: 90;
+	top: 180px;
+}
+#sagalas
+{
+	z-index: 85;
+	top: 250px;
+}
+#prom
+{
+	z-index: 80;
+	top: 320px;
+}
+
+
+#barongs:hover,
+#americanas:hover,
+#gowns:hover,
+#sagalas:hover,
+#prom:hover,
+#addSide:hover,
+#selectSide:hover,
+#ordersSide:hover
+{
+	background-image: url('../pics/buttonhover.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	//background: #fadfe7;
+	color: gray;
+}
+
+
+
+#addProductDiv,
+#selectProductDiv,
+#ordersDiv
+{
+	background:#f8c4d4;
+	display: none;
+	width: 397%;
+	position: absolute;
+	border-radius: 10px;
+	border: 2px solid #f5769c;
+	top: 60px;
+	left:111%;
+	height: 89%;
+	cursor: pointer;
+	overflow: auto;
+	//z-index: 90;
+	padding-bottom: 3%;
+	cursor: default;
+}
+#addProductDiv
+{
+	z-index: 99;
+}
+
+#selectProductDiv
+{
+	z-index: 94;
+}
+
+#ordersDiv
+{
+	z-index: 89;
+}
+
+#functionsFieldset
+{
+	//margin-left: 1%;
+	width: 60%;
+	margin:auto;
+}
+
+#listFieldset
+{
+	//margin-left: 1%;
+	width: 95%;
+	
+}
+
+
+.sideAdd,
+.sideSelect,
+.sideOrder
+{
+	//transform: skewX(40deg);
+	//height:100%;
+	padding-top: 7px;
+	width: 100%;
+}
+
+#addProductTable,
+#selectProductTable,
+#orderTable
+{
+	width: 95%;
+}
+
+#barongsHolder,
+#americanasHolder,
+#gownsHolder,
+#sagalasHolder,
+#promHolder
+{
+	//margin-left: 1%;
+	width: 63%;
+	margin:auto;
+	max-height: 60%;
+	overflow: auto;
+	//border: 1px solid;
+}
+#pendingHolder,
+#confirmedHolder
+{
+	max-height: 60%;
+	overflow: auto;
+}
+#selectListTable
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin:auto;
+	width: 95%;
+	border: 1px solid #f5769c
+}
+#selectListTable td, th
+{
+	border: 1px solid #f5769c;
+	text-align : center;
+	padding: 4px;
+	width: 25%;
+	font-size: 0.92em;
+}
+span#prodcode
+{
+	//font-weight: bold;
+	font-size: 0.95em;
+	text-decoration: underline;
+	cursor: pointer;
+}
+span#prodcode:hover
+{
+	opacity: 0.60;
+	color: #f5769c;
+}
+#addProductTable td,
+#selectProductTable td,
+#orderTable td
+{
+	padding-top: 2%;
+	width: 50%;
+}
+
+td.left
+{
+	text-align:right;
+	padding-right: 2.5%;
+}
+
+td.rightNumber
+{
+	font-size: 0.9em;
+}
+
+/*===========================================================*/

@@ -1,0 +1,187 @@
+/*=======================option pane========================*/
+
+#optionPane
+{
+	position: relative;
+	height: 4%;
+	//border: 2px black solid;
+	width: 100%;
+	display: block;
+	
+}
+
+#logOutClick
+{
+	
+	margin-right: 1%;
+	float: right;
+    text-decoration: underline;
+    cursor: pointer;
+	display: none;
+
+}
+
+#profileHover
+{
+	margin-right: 1%;
+	float: right;
+    text-decoration: underline;
+    cursor: pointer;
+	display: none;
+}
+#signUpClick
+{
+	font-size-adjust: none;
+	margin-right: 1%;
+	float: right;
+    text-decoration: underline;
+    cursor: pointer;
+	display: none;
+
+}
+#loginClick
+{
+	margin-right: 1%;
+	float: right;
+    text-decoration: underline;
+    cursor: pointer;
+	display: none;
+}
+#cartClick
+{
+	margin-right: 1%;
+	float: right;
+    text-decoration: underline;
+    cursor: pointer;
+	display: none;
+}
+#signUpClick:hover,
+#cartClick:hover,
+#loginClick:hover,
+#logOutClick:hover,
+#profileHover:hover,
+#removeClick:hover
+{
+	opacity: 0.60;
+	color: #f5769c;
+}
+#signUp
+{
+	position: absolute;
+	right:0.5%;
+	top: 155%;
+	z-index: 200;
+    display: none;
+	
+	
+}
+#cart
+{
+	position: absolute;
+	right:0.5%;
+	top: 155%;
+	z-index: 180;
+    display: none;
+}
+#cartPicHolder
+{
+	position: relative;
+	height: 90px;
+}
+#login
+{
+	position: absolute;
+	right:0.5%;
+	top: 155%;
+	z-index: 200;
+    display: none;
+	
+}
+
+#signUpError{
+	display: none;
+	padding:2%;
+	color:red;
+	font-size:0.95em;
+	font-weight: bold;
+	height:10%;
+}
+
+#ordersTable
+{
+	font-size: 0.9em;
+	width: auto;
+}
+
+#ordersTable td
+{
+}
+.paddedTdOrders
+{
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+#seeAll
+{
+	
+	margin-right: 1%;
+	text-align: right;
+    text-decoration: underline;
+    cursor: pointer;
+	display: block;
+
+}
+#orderclicks
+{
+	text-decoration: underline;
+    cursor: pointer;
+}
+#seeAll:hover,
+#orderclicks:hover
+{
+	opacity: 0.60;
+	color: #f5769c;
+}
+.paddedTd
+{
+	padding-top: 3%;
+}
+.paddedTdLabel
+{
+	padding-top: 3%;
+	width: 150px;
+}
+.paddedTdTwice
+{
+	text-align: right;
+	padding-top: 8%;
+}
+
+#cartTable td
+{
+	//border: 1px solid black;
+}
+#removeClick
+{
+	text-decoration: underline;
+    cursor: pointer;
+	font-size: 0.8em;
+	float:right;
+}
+#cartFieldset
+{
+	max-height: 520px;
+	//border: 1px solid black;
+	overflow: auto;
+}
+
+#ordersFieldset
+{
+	max-height: 150px;
+	max-width: 400px;
+	//border: 1px solid black;
+	overflow: auto;
+}
+
+/*========================================================*/

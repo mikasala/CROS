@@ -1,0 +1,294 @@
+INSERT INTO users (email,fname,lname,password,usertype)
+VALUES('alphsa01@gmail.com','Marlo Ian','Kasala','10470c3b4b1fed12c3baac014be15fac67c6e815','admin');
+
+update users
+set fname = 'Marlo Ian',
+lname = 'Kasala'
+where email = 'alphsa01@gmail.com';
+
+
+$("#npword").click(function(){
+	checkSignUpInputs(1);
+});
+$("#cnpword").click(function(){
+	checkSignUpInputs(2);
+});
+$("#fname").click(function(){
+	checkSignUpInputs(3);
+});
+$("#lname").click(function(){
+	checkSignUpInputs(4);
+});
+$("#bdate").click(function(){
+	checkSignUpInputs(5);
+});
+
+value="'.$user['password'].'"
+
+echo '<fieldset id="functionsFieldset">';
+	echo '
+		<form name="addForm" id="addForm" action="" method="post" onsubmit="return addProduct()">							
+			<table id="addProductTable">
+				<tr>
+					<td >Username: </td>
+					<td ><input type="text" name="uname" id="email" placeholder="Enter your email address.."/></td>
+				</tr>
+				<tr>
+					<td >Password: </td>
+					<td ><input type="password" name="pword" id="pword"/></td>
+				</tr>
+				<tr>
+					<td ></td>
+					<td ><input type="submit" name="loginButton" id="loginButton" value="LOG IN"/></td>
+				</tr>
+			</table>
+		</form>
+';
+echo '</fieldset>';
+
+create table first(
+	firstid int(10) unsigned not null auto_increment,
+    PRIMARY KEY (firstid)
+    
+);
+create table second(
+	secondid int(10) not null,
+    FOREIGN KEY (secondid) REFERENCES first(firstid)
+)
+
+
+<table id="addProductTable">
+<tr>
+	<td class="left">Category: </td>
+	<td>
+		<select name="category" id="category" onchange="hideOthers(this);">
+			<option>--- Category ---</option>
+			<option>Barongs</option>
+			<option>Americanas</option>
+			<option>Gowns</option>
+			<option>Gowns</option>
+			<option>Prom Dress</option>
+		</select>
+	</td>
+</tr>
+<tr>
+	<td class="left">Photo: </td>
+	<td ><input type="file" name="photo" id="photo" /></td>
+</tr>
+<tr>
+	<td class="left">Name: </td>
+	<td ><input type="text" name="prodName" id="prodName" /></td>
+</tr>
+<tr>
+	<td class="left">Cloth Type: </td>
+	<td ><input type="text" name="ctype" id="ctype" /></td>
+</tr>
+<tr>
+	<td class="left">Quantity: </td>
+	<td class="rightNumber"><input type="number" min="1" max="20" name="quantity" id="quantity" value="1" />&nbsp;pc/s.</td>
+</tr>
+<tr>
+	<td class="left">Size: </td>
+	<td>
+		<select name="bodysize" id="bodysize" onchange="setDefaultSizes(this);" >
+			<option>--- Size ---</option>
+			<option>Extra Small</option>
+			<option>Small</option>
+			<option>Medium</option>
+			<option>Large</option>
+			<option>Extra Large</option
+			<option>XXL/option>
+		</select>
+	</td>
+</tr>
+<tr id="chest">
+	<td class="left">Chest: </td>
+	<td class="rightNumber">
+		<input type="number" min="25" max="100" name="minchest" id="minchest" value="29" />
+		&nbsp;&nbsp;-&nbsp;&nbsp;
+		<input type="number" min="25" max="100" name="maxchest" id="maxchest" value="38" />
+		&nbsp;inches
+	</td>
+</tr>
+<tr id="waist">
+	<td class="left">Waist: </td>
+	<td class="rightNumber">
+		<input type="number" min="25" max="100" name="minwaist" id="minwaist" value="25" />
+		&nbsp;&nbsp;-&nbsp;&nbsp;
+		<input type="number" min="25" max="100" name="maxwaist" id="maxwaist" value="40" />
+		&nbsp;inches
+	</td>
+</tr>
+<tr id="oalength">
+	<td class="left">Length: </td>
+	<td class="rightNumber"><input type="number" min="30" max="500" name="overalllen" id="overalllen" value="50" />&nbsp;inches</td>
+</tr>
+<tr>
+	<td class="left">Price: </td>
+	<td class="rightNumber"><input type="number" min="100" max="100000" name="price" id="price" value="500" />&nbsp;PHP</td>
+</tr>
+<tr>
+	<td class="left">Description: </td>
+	<td ><textarea name="description" id="description" placeholder="Enter description here.." style="height: 80px;width: 180px"/></textarea>
+	</td>
+</tr>
+<tr>
+	<td ></td>
+	<td ><input type="submit" name="addButton" id="addButton" value="GO"/></td>
+</tr>
+</table>
+
+
+
+if($isClient){
+	if(isInCart($product['productid'])){
+		echo '<input type="button" name="buttonForCart" id="buttonForCart"
+			value="Remove from Cart" onclick="addRemoveCart(this,'.$product['productid'].')"/>';
+	}else{
+		echo '<input type="button" name="buttonForCart" id="buttonForCart"
+			value="Add to Cart" onclick="addRemoveCart(this,'.$product['productid'].')"/>';
+	}
+}
+
+echo '<form name="orderForm" id="orderForm">';
+			echo '<table id="addOrderTable">';
+				echo '<tr>';
+					echo '<td class="leftClick">';
+					echo '</td>';
+					echo '<td class="leftClick">';
+						echo '<span id="closeWindow" onclick="closeThis()">Close (ESC)</span>';
+					echo '</td>';
+				echo '</tr>';
+				echo '<tr ><td style="border:none;height:5px;"></td><td style="border:none;height:5px;"></td></tr>';
+				echo '<tr>';
+					echo '<td class="left">';
+						echo "Date: ";
+					echo '</td>';
+					echo '<td class="right">';
+						echo '<input type="hidden" id="userid" name="userid" value="'.$userid.'"/>';
+						$timeToUse = strtotime(getDateTime());
+						echo $timeStamp = date("F j, Y", $timeToUse);
+					echo '</td>';	
+				echo '</tr>';
+				
+				echo '<tr>';
+					echo '<td class="left">';
+						echo "Delivery date: ";
+					echo '</td>';
+					echo '<td class="right">';
+						echo '<input type="date" name="dateofdeliver" required id="dateofdeliver">';
+					echo '</td>';	
+				echo '</tr>';
+				
+				echo '<tr>';
+					echo '<td class="left">';
+						echo "Address: ";
+					echo '</td>';
+					echo '<td class="right">';
+						echo '<textarea id="deliveryaddress" required name="deliveryaddress" placeholder="Enter your FULL address here.." style="height: 60px;width: 95%"></textarea>';
+					echo '</td>';
+				echo '</tr>';
+				
+				echo '<tr>';
+					echo '<td class="left">';
+						echo "Contact No.: ";
+					echo '</td>';
+					echo '<td class="right">';
+						echo '<input type="text" required name="contactno" id="contactno"/>';
+					echo '</td>';
+				echo '</tr>';
+				
+				echo '<tr>';
+					echo '<td class="left">';
+						echo "Total Amount: ";
+					echo '</td>';
+					echo '<td class="right">';
+						echo '<input type="hidden" name="amounttopay" id="amounttopay" value="'.cartAmount().'"/>';
+						echo "Php ".cartAmount().".00";
+					echo '</td>';
+				echo '</tr>';
+				
+				echo '<tr>';
+					echo '<td class="left">';
+						echo "Mode of payment: ";
+					echo '</td>';
+					echo '<td class="right">';
+						echo '<input type="radio" required name="mop" id="mop" value="Cash on Delivery"/>Cash On Delivery<br/>';
+						echo '<input type="radio" required name="mop" id="mop" value="Paypal"/>Paypal';
+					echo '</td>';
+				echo '</tr>';
+				
+				echo '<tr>';
+					echo '<td ></td>';
+					echo '<td ><input type="submit" name="addOrderButton" id="addOrderButton" value="GO"/></td>';
+				echo '</tr>';
+				
+			echo '</table>';
+			echo '</form>';
+
+drop procedure if exists load_foo_test_data;
+delimiter #
+create procedure load_foo_test_data()
+begin
+
+declare v_max int unsigned default 1000;
+declare v_counter int unsigned default 0;
+
+  truncate table barongs;
+  start transaction;
+  while v_counter < v_max do
+    insert into foo (val) values ( floor(0 + (rand() * 65535)) );
+    set v_counter=v_counter+1;
+  end while;
+  commit;
+end #
+
+delimiter ;
+
+call load_foo_test_data();
+
+INSERT INTO barongs(productid)
+values();
+CREATE TABLE IF NOT EXISTS barongs(
+	bid int(10) unsigned not null auto_increment,
+	productid int(10) unsigned not null,
+	PRIMARY KEY (bid),
+	FOREIGN KEY (productid) REFERENCES products(productid)
+)ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=3987;
+
+
+CREATE TABLE IF NOT EXISTS americanas(
+	aid int(10) unsigned not null auto_increment,
+	productid int(10) unsigned not null,
+	PRIMARY KEY (aid),
+	FOREIGN KEY (productid) REFERENCES products(productid)
+)ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=3987;
+
+CREATE TABLE IF NOT EXISTS gowns(
+	gid int(10) unsigned not null auto_increment,
+	productid int(10) unsigned not null,
+	PRIMARY KEY (gid),
+	FOREIGN KEY (productid) REFERENCES products(productid)
+)ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=3987;
+
+CREATE TABLE IF NOT EXISTS sagalas(
+	sid int(10) unsigned not null auto_increment,
+	productid int(10) unsigned not null,
+	PRIMARY KEY (sid),
+	FOREIGN KEY (productid) REFERENCES products(productid)
+)ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=3987;
+
+CREATE TABLE IF NOT EXISTS prom(
+	pid int(10) unsigned not null auto_increment,
+	productid int(10) unsigned not null,
+	PRIMARY KEY (pid),
+	FOREIGN KEY (productid) REFERENCES products(productid)
+)ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=3987;
+
+
+
+
+
+
+
+

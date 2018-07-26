@@ -1,0 +1,78 @@
+<NotepadPlus>
+    <Session activeView="0">
+        <mainView activeIndex="31">
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="399" startPos="203" endPos="203" selMode="0" lang="SQL" encoding="-1" filename="C:\wamp\www\IT502\table2.sql" />
+            <File firstVisibleLine="21" xOffset="0" scrollWidth="413" startPos="1369" endPos="1369" selMode="0" lang="SQL" encoding="-1" filename="C:\wamp\www\OSAM\tables.sql" />
+            <File firstVisibleLine="608" xOffset="0" scrollWidth="8393" startPos="25552" endPos="25552" selMode="0" lang="Normal Text" encoding="-1" filename="C:\wamp\www\OSAM\bash.txt" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="616" startPos="0" endPos="0" selMode="0" lang="PHP" encoding="-1" filename="C:\wamp\www\OSAM\download.php" />
+            <File firstVisibleLine="222" xOffset="0" scrollWidth="3073" startPos="380" endPos="380" selMode="0" lang="PHP" encoding="-1" filename="C:\wamp\www\OSAM\functions.php" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1169" startPos="0" endPos="0" selMode="0" lang="PHP" encoding="-1" filename="C:\wamp\www\OSAM\generatefsaf.php" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="903" startPos="0" endPos="0" selMode="0" lang="PHP" encoding="-1" filename="C:\wamp\www\OSAM\generatecdcert.php" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="686" startPos="0" endPos="0" selMode="0" lang="PHP" encoding="-1" filename="C:\wamp\www\OSAM\generatepsaf.php" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1267" startPos="0" endPos="0" selMode="0" lang="PHP" encoding="-1" filename="C:\wamp\www\OSAM\generateslb.php" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="511" startPos="0" endPos="0" selMode="0" lang="PHP" encoding="-1" filename="C:\wamp\www\OSAM\getcodebtorinfo.php" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="511" startPos="0" endPos="0" selMode="0" lang="PHP" encoding="-1" filename="C:\wamp\www\OSAM\getcdcert.php" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="483" startPos="60" endPos="60" selMode="0" lang="PHP" encoding="-1" filename="C:\wamp\www\OSAM\getid.php" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="483" startPos="289" endPos="289" selMode="0" lang="PHP" encoding="-1" filename="C:\wamp\www\OSAM\login.php" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="3185" startPos="205" endPos="205" selMode="0" lang="PHP" encoding="-1" filename="C:\wamp\www\OSAM\saveprofile.php" />
+            <File firstVisibleLine="72" xOffset="0" scrollWidth="784" startPos="511" endPos="511" selMode="0" lang="PHP" encoding="-1" filename="C:\wamp\www\OSAM\getprofile.php" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1089" startPos="80" endPos="80" selMode="0" lang="PHP" encoding="-1" filename="C:\wamp\www\IT502\courses.php" />
+            <File firstVisibleLine="9" xOffset="0" scrollWidth="847" startPos="644" endPos="644" selMode="0" lang="PHP" encoding="-1" filename="C:\wamp\www\IT502\login.php" />
+            <File firstVisibleLine="33" xOffset="50" scrollWidth="1089" startPos="1314" endPos="1314" selMode="0" lang="PHP" encoding="-1" filename="C:\wamp\www\IT502\main.php" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="306" startPos="100" endPos="0" selMode="0" lang="PHP" encoding="-1" filename="C:\wamp\www\IT502\logout.php" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="531" startPos="1162" endPos="1162" selMode="0" lang="SQL" encoding="-1" filename="C:\wamp\www\IT502\table.sql" />
+            <File firstVisibleLine="39" xOffset="156" scrollWidth="1089" startPos="2129" endPos="2129" selMode="0" lang="PHP" encoding="-1" filename="C:\wamp\www\IT502\main2.php" />
+            <File firstVisibleLine="100" xOffset="0" scrollWidth="1463" startPos="4168" endPos="4168" selMode="0" lang="PHP" encoding="-1" filename="C:\wamp\www\ITCBS\addJR.php" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1491" startPos="576" endPos="576" selMode="0" lang="PHP" encoding="-1" filename="C:\wamp\www\CROS\try.php" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1274" startPos="520" endPos="520" selMode="0" lang="Normal Text" encoding="-1" filename="C:\Users\MIGK\Desktop\IT 508\Overriding notes.txt" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="847" startPos="485" endPos="485" selMode="0" lang="PHP" encoding="-1" filename="C:\wamp\www\CROS\signup.php" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1498" startPos="57" endPos="57" selMode="0" lang="PHP" encoding="-1" filename="C:\wamp\www\CROS\index.php" />
+            <File firstVisibleLine="21" xOffset="0" scrollWidth="1316" startPos="1195" endPos="1195" selMode="0" lang="PHP" encoding="-1" filename="C:\wamp\www\CROS\viewList.php" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="343" startPos="294" endPos="275" selMode="0" lang="PHP" encoding="-1" filename="C:\wamp\www\CROS\getProdId.php" />
+            <File firstVisibleLine="6" xOffset="0" scrollWidth="1404" startPos="392" endPos="392" selMode="0" lang="PHP" encoding="-1" filename="C:\wamp\www\CROS\products.php" />
+            <File firstVisibleLine="3" xOffset="0" scrollWidth="1051" startPos="356" endPos="356" selMode="0" lang="PHP" encoding="-1" filename="C:\wamp\www\CROS\category.php" />
+            <File firstVisibleLine="99" xOffset="0" scrollWidth="1491" startPos="3076" endPos="3076" selMode="0" lang="PHP" encoding="-1" filename="C:\wamp\www\CROS\viewProduct.php" />
+            <File firstVisibleLine="84" xOffset="0" scrollWidth="1386" startPos="3108" endPos="3108" selMode="0" lang="PHP" encoding="-1" filename="C:\wamp\www\CROS\updateProduct.php" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1757" startPos="757" endPos="997" selMode="0" lang="PHP" encoding="-1" filename="C:\wamp\www\CROS\cart.php" />
+            <File firstVisibleLine="18" xOffset="0" scrollWidth="1155" startPos="940" endPos="1297" selMode="0" lang="PHP" encoding="-1" filename="C:\wamp\www\CROS\upload.php" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="343" startPos="204" endPos="204" selMode="0" lang="PHP" encoding="-1" filename="C:\wamp\www\CROS\addCart.php" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="343" startPos="122" endPos="122" selMode="0" lang="PHP" encoding="-1" filename="C:\wamp\www\CROS\removeCart.php" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="882" startPos="38" endPos="38" selMode="0" lang="PHP" encoding="-1" filename="C:\wamp\www\CROS\checkEmail.php" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="882" startPos="195" endPos="195" selMode="0" lang="PHP" encoding="-1" filename="C:\wamp\www\CROS\addUser.php" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="897" startPos="553" endPos="553" selMode="0" lang="PHP" encoding="-1" filename="C:\wamp\www\CROS\login.php" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="854" startPos="142" endPos="142" selMode="0" lang="PHP" encoding="-1" filename="C:\wamp\www\CROS\updateUser.php" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="371" startPos="253" endPos="283" selMode="0" lang="PHP" encoding="-1" filename="C:\wamp\www\CROS\logout.php" />
+        </mainView>
+        <subView activeIndex="21">
+            <File firstVisibleLine="317" xOffset="0" scrollWidth="9054" startPos="25538" endPos="25538" selMode="0" lang="Normal Text" encoding="-1" filename="C:\Users\MIGK\VirtualBox VMs\Windows 7\Shared\Final\textfile.txt" />
+            <File firstVisibleLine="15" xOffset="0" scrollWidth="279" startPos="408" endPos="408" selMode="0" lang="CSS" encoding="-1" filename="C:\wamp\www\IT502\css\style.css" />
+            <File firstVisibleLine="120" xOffset="0" scrollWidth="612" startPos="289" endPos="289" selMode="0" lang="Javascript" encoding="-1" filename="C:\wamp\www\IT502\js\script.js" />
+            <File firstVisibleLine="118" xOffset="100" scrollWidth="3951" startPos="151" endPos="151" selMode="0" lang="PHP" encoding="-1" filename="C:\wamp\www\IT502\functions.php" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="144" startPos="45" endPos="45" selMode="0" lang="Normal Text" encoding="-1" filename="C:\Users\MIGK\Desktop\August 2.txt" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="486" startPos="172" endPos="172" selMode="0" lang="Normal Text" encoding="-1" filename="C:\Users\MIGK\Desktop\IT 508\Assignment 1.txt" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="666" startPos="0" endPos="0" selMode="0" lang="Normal Text" encoding="-1" filename="C:\Users\MIGK\Downloads\Artisteer 4.0 Standard Crack only\How to use the crack of Artisteer 4.0.txt" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1179" startPos="2083" endPos="0" selMode="0" lang="CSS" encoding="-1" filename="C:\wamp\www\moodle\theme\clean\style\custom.css" />
+            <File firstVisibleLine="21" xOffset="0" scrollWidth="972" startPos="1200" endPos="1200" selMode="0" lang="PHP" encoding="-1" filename="C:\wamp\www\moodle\theme\clean\layout\columns1.php" />
+            <File firstVisibleLine="92" xOffset="0" scrollWidth="666" startPos="1809" endPos="1809" selMode="0" lang="Normal Text" encoding="-1" filename="C:\Users\MIGK\Desktop\IT 509\bash.txt" />
+            <File firstVisibleLine="32" xOffset="0" scrollWidth="1413" startPos="1635" endPos="1635" selMode="0" lang="Normal Text" encoding="-1" filename="C:\wamp\www\IT502\bash.txt" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="630" startPos="409" endPos="409" selMode="0" lang="PHP" encoding="-1" filename="C:\wamp\www\moodle\config.php" />
+            <File firstVisibleLine="39" xOffset="0" scrollWidth="855" startPos="2586" endPos="2586" selMode="0" lang="Normal Text" encoding="-1" filename="C:\wamp\bin\apache\apache2.4.9\conf\httpd.conf" />
+            <File firstVisibleLine="6" xOffset="0" scrollWidth="554" startPos="656" endPos="656" selMode="0" lang="SQL" encoding="-1" filename="C:\wamp\www\CROS\tables.sql" />
+            <File firstVisibleLine="127" xOffset="0" scrollWidth="1692" startPos="3435" endPos="3435" selMode="0" lang="Normal Text" encoding="-1" filename="C:\wamp\www\CROS\bash.txt" />
+            <File firstVisibleLine="335" xOffset="50" scrollWidth="3951" startPos="9999" endPos="9999" selMode="0" lang="PHP" encoding="-1" filename="C:\wamp\www\CROS\functions.php" />
+            <File firstVisibleLine="177" xOffset="0" scrollWidth="1269" startPos="4970" endPos="5007" selMode="0" lang="Javascript" encoding="-1" filename="C:\wamp\www\CROS\js\script.js" />
+            <File firstVisibleLine="176" xOffset="0" scrollWidth="567" startPos="2564" endPos="2564" selMode="0" lang="CSS" encoding="-1" filename="C:\wamp\www\CROS\css\sidemenu.css" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1197" startPos="223" endPos="223" selMode="0" lang="Javascript" encoding="-1" filename="C:\wamp\www\CROS\js\sideMenu.js" />
+            <File firstVisibleLine="35" xOffset="0" scrollWidth="567" startPos="358" endPos="358" selMode="0" lang="CSS" encoding="-1" filename="C:\wamp\www\CROS\css\content.css" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="846" startPos="382" endPos="382" selMode="0" lang="Javascript" encoding="-1" filename="C:\wamp\www\CROS\js\viewProduct.js" />
+            <File firstVisibleLine="42" xOffset="0" scrollWidth="1233" startPos="936" endPos="936" selMode="0" lang="Javascript" encoding="-1" filename="C:\wamp\www\CROS\js\loadPage.js" />
+            <File firstVisibleLine="34" xOffset="0" scrollWidth="675" startPos="938" endPos="938" selMode="0" lang="CSS" encoding="-1" filename="C:\wamp\www\CROS\css\style.css" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="621" startPos="478" endPos="478" selMode="0" lang="Javascript" encoding="-1" filename="C:\wamp\www\CROS\js\optionsPane.js" />
+            <File firstVisibleLine="54" xOffset="0" scrollWidth="675" startPos="988" endPos="1020" selMode="0" lang="CSS" encoding="-1" filename="C:\wamp\www\CROS\css\options.css" />
+            <File firstVisibleLine="9" xOffset="0" scrollWidth="477" startPos="419" endPos="528" selMode="0" lang="CSS" encoding="-1" filename="C:\wamp\www\CROS\css\page.css" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="477" startPos="77" endPos="77" selMode="0" lang="CSS" encoding="-1" filename="C:\wamp\www\CROS\css\title.css" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="558" startPos="407" endPos="407" selMode="0" lang="CSS" encoding="-1" filename="C:\wamp\www\CROS\css\footer.css" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="648" startPos="116" endPos="116" selMode="0" lang="Normal Text" encoding="-1" filename="C:\wamp\www\hosts" />
+        </subView>
+    </Session>
+</NotepadPlus>

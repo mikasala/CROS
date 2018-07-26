@@ -1,0 +1,21 @@
+#titleHead
+{
+	height: 13.5%;
+	width: 100%;
+	//border: 1px solid red;
+}
+#mainTitleHead
+{
+	background-image: url('../pics/titleHead.jpg');
+	//height: 85px;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	//width: 1350px;
+	width: 100%;
+	//margin-right:0.5%;
+	display: none;
+	//border: 1px solid #ce9641;
+	border-radius: 5px;
+	cursor: pointer;
+}

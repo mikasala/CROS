@@ -1,0 +1,65 @@
+/*=========================main content======================*/
+
+#mainContentContainer
+{
+	
+	width: 79%;
+	height: 95%;
+	float: left;
+	//border: 1px solid black;
+	overflow: auto;
+	margin-top: 0.5%;
+}
+#mainContent
+{
+	position: relative;
+
+}
+
+div.productsHolder
+{
+	position: absolute;
+	//border: 1px solid #f5769c;
+	float: left;
+	top: 30px;
+	text-align: center;
+	width: 150px;
+	display: none;
+	cursor: pointer;
+	font-size: 0.9em;
+}
+#productsFieldset
+{
+	background: #d3c3a2;
+}
+img.products:hover
+{
+	opacity: 0.75;
+}
+#prodPicHolder
+{
+	position: relative;
+	height: 120px;
+	margin-bottom: 3px;
+}
+
+
+
+img.products
+{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom:0;
+	margin: auto;
+	max-width:100%;
+	max-height:100%;
+}
+#addProductToCart
+{
+	margin-top: 3px;
+}
+
+
+/*==========================================================*/
