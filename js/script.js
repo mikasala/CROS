@@ -10,7 +10,7 @@
 			target[i].checked='checked';
 	}
 }
-
+//uncheck all checkboxes
 function uncheckall(){
 	var target=document.getElementsByTagName('input');
 	for(i=0; i<target.length; i++)
